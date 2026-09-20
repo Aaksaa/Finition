@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        app:fontProviderAuthority="com.google.android.gms.fonts"
+        app:fontProviderPackage="com.google.android.gms"
+        app:fontProviderQuery="name=Space Grotesk&amp;weight=400"
+        app:fontWeight="400"
+        app:fontProviderCerts="@array/com_google_android_gms_fonts_certs" />
+    <font
+        app:fontProviderAuthority="com.google.android.gms.fonts"
+        app:fontProviderPackage="com.google.android.gms"
+        app:fontProviderQuery="name=Space Grotesk&amp;weight=500"
+        app:fontWeight="500"
+        app:fontProviderCerts="@array/com_google_android_gms_fonts_certs" />
+    <font
+        app:fontProviderAuthority="com.google.android.gms.fonts"
+        app:fontProviderPackage="com.google.android.gms"
+        app:fontProviderQuery="name=Space Grotesk&amp;weight=700"
+        app:fontWeight="700"
+        app:fontProviderCerts="@array/com_google_android_gms_fonts_certs" />
+</font-family>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Finition theme — Sanity design system, dark-first.
+      Per Design.md: near-black canvas is the natural state, not a dark "mode".
+    -->
+    <style name="Theme.Finition" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorError">@color/danger</item>
+
+        <item name="android:colorBackground">@color/canvas</item>
+        <item name="android:windowBackground">@color/canvas</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="android:textColorPrimary">@color/ink</item>
+        <item name="android:textColorSecondary">@color/on_dark_mute</item>
+        <item name="android:textColorHint">@color/ash</item>
+
+        <item name="android:statusBarColor">@color/canvas</item>
+        <item name="android:navigationBarColor">@color/canvas</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="android:fontFamily">@font/space_grotesk</item>
+        <item name="fontFamily">@font/space_grotesk</item>
+        <item name="android:textViewStyle">@style/Widget.Finition.TextView</item>
+        <item name="materialButtonStyle">@style/Widget.Finition.Button.Primary</item>
+        <item name="editTextStyle">@style/Widget.Finition.EditText</item>
+        <item name="android:editTextStyle">@style/Widget.Finition.EditText</item>
+        <item name="bottomNavigationStyle">@style/Widget.Finition.BottomNavigation</item>
+        <item name="floatingActionButtonStyle">@style/Widget.Finition.FAB</item>
+        <item name="android:datePickerDialogTheme">@style/ThemeOverlay.Finition.DatePicker</item>
+    </style>
+
+    <style name="ThemeOverlay.Finition.DatePicker" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="colorAccent">@color/primary</item>
+        <item name="colorPrimary">@color/primary</item>
+    </style>
+</resources>

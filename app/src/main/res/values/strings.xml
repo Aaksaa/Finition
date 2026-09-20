@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Finition</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_transactions">Ledger</string>
+    <string name="nav_invoices">Invoices</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Command Center</string>
+    <string name="dashboard_total_income">Total Income</string>
+    <string name="dashboard_total_expenses">Total Expenses</string>
+    <string name="dashboard_net_profit">Net Profit</string>
+    <string name="dashboard_cash_flow">Cash Flow — Last 6 Months</string>
+    <string name="dashboard_expense_breakdown">Expense Breakdown</string>
+    <string name="dashboard_no_expenses">No expenses recorded yet</string>
+    <string name="dashboard_overdue_banner">%1$d invoice(s) overdue — %2$s outstanding</string>
+    <string name="dashboard_all_clear">No overdue invoices</string>
+    <string name="dashboard_unbilled_income">Unbilled income: %1$s — generate an invoice</string>
+
+    <!-- Transactions -->
+    <string name="transactions_title">Ledger</string>
+    <string name="transactions_empty">No transactions yet. Tap + to log income or an expense.</string>
+    <string name="filter_all">All</string>
+    <string name="filter_income">Income</string>
+    <string name="filter_expense">Expense</string>
+    <string name="transaction_add">Log Transaction</string>
+    <string name="transaction_edit">Edit Transaction</string>
+    <string name="transaction_amount">Amount</string>
+    <string name="transaction_category">Category</string>
+    <string name="transaction_date">Date</string>
+    <string name="transaction_notes">Notes</string>
+    <string name="transaction_client">Client (optional)</string>
+    <string name="transaction_delete_confirm">Delete this transaction?</string>
+    <string name="transaction_generate_invoice">Auto-generate invoice for this income</string>
+    <string name="transaction_invoiced">Invoiced</string>
+
+    <!-- Categories -->
+    <string name="category_sales">Sales</string>
+    <string name="category_services">Services</string>
+    <string name="category_consulting">Consulting</string>
+    <string name="category_other_income">Other Income</string>
+    <string name="category_rent">Rent</string>
+    <string name="category_utilities">Utilities</string>
+    <string name="category_supplies">Supplies</string>
+    <string name="category_software">Software</string>
+    <string name="category_travel">Travel</string>
+    <string name="category_marketing">Marketing</string>
+    <string name="category_payroll">Payroll</string>
+    <string name="category_other_expense">Other Expense</string>
+
+    <!-- Invoices -->
+    <string name="invoices_title">Invoices</string>
+    <string name="invoices_empty">No invoices yet. Tap + to create one.</string>
+    <string name="invoice_create">New Invoice</string>
+    <string name="invoice_detail">Invoice</string>
+    <string name="invoice_client_name">Client name</string>
+    <string name="invoice_client_email">Client email (optional)</string>
+    <string name="invoice_due_date">Due date</string>
+    <string name="invoice_notes">Notes / payment terms</string>
+    <string name="invoice_line_items">Line Items</string>
+    <string name="invoice_add_item">Add item</string>
+    <string name="invoice_item_description">Description</string>
+    <string name="invoice_item_amount">Amount</string>
+    <string name="invoice_from_income">From unbilled income</string>
+    <string name="invoice_manual_item">Manual item</string>
+    <string name="invoice_subtotal">Subtotal</string>
+    <string name="invoice_tax">Tax</string>
+    <string name="invoice_total">Total</string>
+    <string name="invoice_mark_sent">Mark as Sent</string>
+    <string name="invoice_mark_paid">Mark as Paid</string>
+    <string name="invoice_send_email">Send via Email</string>
+    <string name="invoice_delete_confirm">Delete this invoice?</string>
+    <string name="invoice_bill_to">Bill To</string>
+    <string name="invoice_issued">Issued</string>
+    <string name="invoice_due">Due</string>
+    <string name="invoice_tax_percent">Tax %</string>
+    <string name="invoice_unbilled_row">%1$s — %2$s</string>
+    <string name="invoice_no_unbilled">All income has been billed</string>
+    <string name="invoice_detail_issued_due">Issued %1$s · Due %2$s</string>
+
+    <!-- Invoice statuses -->
+    <string name="status_draft">Draft</string>
+    <string name="status_sent">Sent</string>
+    <string name="status_paid">Paid</string>
+    <string name="status_overdue">Overdue</string>
+
+    <!-- Actions -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_ok">OK</string>
+
+    <!-- Validation -->
+    <string name="error_amount_required">Enter a valid amount</string>
+    <string name="error_client_required">Enter a client name</string>
+    <string name="error_line_items_required">Add at least one line item</string>
+    <string name="error_description_required">Enter a description</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Invoice Reminders</string>
+    <string name="notification_channel_desc">Reminders for unpaid and overdue invoices</string>
+    <string name="notification_overdue_title">Invoice %1$s overdue</string>
+    <string name="notification_overdue_text">%1$s owes %2$s — due %3$s</string>
+    <string name="notification_permission_rationale">Allow notifications so Finition can remind you about overdue invoices.</string>
+
+    <!-- Email -->
+    <string name="email_invoice_subject">Invoice %1$s from %2$s</string>
+    <string name="email_chooser_title">Send invoice</string>
+</resources>

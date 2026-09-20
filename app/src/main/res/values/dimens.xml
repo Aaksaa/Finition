@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sanity spacing scale (Design.md) -->
+    <dimen name="space_xxs">2dp</dimen>
+    <dimen name="space_xs">4dp</dimen>
+    <dimen name="space_sm">8dp</dimen>
+    <dimen name="space_md">12dp</dimen>
+    <dimen name="space_lg">16dp</dimen>
+    <dimen name="space_xl">24dp</dimen>
+    <dimen name="space_xxl">32dp</dimen>
+    <dimen name="space_xxxl">48dp</dimen>
+
+    <!-- Shape -->
+    <dimen name="radius_xs">3dp</dimen>
+    <dimen name="radius_sm">5dp</dimen>
+    <dimen name="radius_md">6dp</dimen>
+    <dimen name="radius_lg">12dp</dimen>
+
+    <dimen name="touch_target">44dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

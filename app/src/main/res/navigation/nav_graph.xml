@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.finition.app.ui.dashboard.DashboardFragment"
+        android:label="@string/dashboard_title" />
+
+    <fragment
+        android:id="@+id/transactionsFragment"
+        android:name="com.finition.app.ui.transactions.TransactionsFragment"
+        android:label="@string/transactions_title">
+        <action
+            android:id="@+id/action_transactions_to_edit"
+            app:destination="@id/transactionEditFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/transactionEditFragment"
+        android:name="com.finition.app.ui.transactions.TransactionEditFragment"
+        android:label="@string/transaction_add">
+        <argument
+            android:name="transactionId"
+            android:defaultValue="-1L"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/invoicesFragment"
+        android:name="com.finition.app.ui.invoices.InvoicesFragment"
+        android:label="@string/invoices_title">
+        <action
+            android:id="@+id/action_invoices_to_create"
+            app:destination="@id/invoiceCreateFragment" />
+        <action
+            android:id="@+id/action_invoices_to_detail"
+            app:destination="@id/invoiceDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/invoiceCreateFragment"
+        android:name="com.finition.app.ui.invoices.InvoiceCreateFragment"
+        android:label="@string/invoice_create" />
+
+    <fragment
+        android:id="@+id/invoiceDetailFragment"
+        android:name="com.finition.app.ui.invoices.InvoiceDetailFragment"
+        android:label="@string/invoice_detail">
+        <argument
+            android:name="invoiceId"
+            app:argType="long" />
+    </fragment>
+</navigation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Finition "F" monogram — coral on near-black (Sanity palette) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#f36458"
+        android:pathData="M40,30h14v60h-14z" />
+    <path
+        android:fillColor="#f36458"
+        android:pathData="M40,30h40v14h-40z" />
+    <path
+        android:fillColor="#f36458"
+        android:pathData="M40,56h32v14h-32z" />
+</vector>

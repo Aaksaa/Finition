@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sanity design tokens — dark-first palette (Design.md) -->
+    <color name="primary">#f36458</color>
+    <color name="secondary">#0052ef</color>
+
+    <color name="canvas">#0b0b0b</color>
+    <color name="surface">#212121</color>
+    <color name="surface_deep">#000000</color>
+
+    <color name="ink">#ffffff</color>
+    <color name="on_dark">#ffffff</color>
+    <color name="on_dark_mute">#b9b9b9</color>
+    <color name="ash">#797979</color>
+    <color name="stone">#797979</color>
+
+    <color name="hairline">#212121</color>
+    <color name="hairline_strong">#797979</color>
+    <color name="divider">#212121</color>
+    <color name="divider_dark">#353535</color>
+
+    <color name="badge_success">#19d600</color>
+    <color name="badge_warning">#f59e0b</color>
+    <color name="badge_info">#55beff</color>
+    <color name="danger">#ff453a</color>
+    <color name="link">#55beff</color>
+
+    <color name="on_primary">#ffffff</color>
+    <color name="on_secondary">#ffffff</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
