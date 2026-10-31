@@ -12,6 +12,8 @@
 
 Finition is a streamlined mobile application built with Kotlin, designed to empower freelancers and small-to-medium business owners. It combines intuitive financial tracking with automated invoicing capabilities to reduce administrative overhead and improve financial oversight.
 
+> ⚠️ This Github repository is no longer maintained.
+
 ## 🚀 Key Features
 
 *   **Comprehensive Financial Tracking:** Easily log income and expenses with customizable categories.
